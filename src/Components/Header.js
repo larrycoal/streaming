@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className="ui secondary pointing menu ">
             <Link to="/" >
-                <h3 className='active item'>Streams </h3>
+                <h3 className='item'>Streams </h3>
             </Link>
             <Link to="/new" >
                 <h3 className="item">All streams</h3>
