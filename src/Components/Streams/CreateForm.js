@@ -28,7 +28,7 @@ class CreateForm extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="container"style={{width:"50%"}}>
                 <form className="ui form error" onSubmit={this.props.handleSubmit(this.onFormSubmit)}>
                     <Field name="title" component={this.renderInput} label="Title" />
                     <Field name="description" component={this.renderInput} label="Description" />
